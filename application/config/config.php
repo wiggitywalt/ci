@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = '';
+$config['base_url'] = '/';
 
 /*
 |--------------------------------------------------------------------------
@@ -28,9 +28,10 @@ $config['base_url'] = '';
 | something else. If you are using mod_rewrite to remove the page set this
 | variable so that it is blank.
 |
-*/
-$config['index_page'] = 'index.php';
 
+*/
+//$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 /*
 |--------------------------------------------------------------------------
 | URI PROTOCOL
