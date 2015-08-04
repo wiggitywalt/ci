@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><?php echo isset($title) ? "PHP Sandbox: $title" : NULL; ?></title>
+    <title><?php echo isset($title) ? "$title" : NULL; ?></title>
     <link rel="stylesheet" href="<?php echo asset_url() ?>bootstrap.min.css"  type="text/css" />
     <link rel="stylesheet" href="<?php echo asset_url() ?>site.css"  type="text/css" />
   </head>

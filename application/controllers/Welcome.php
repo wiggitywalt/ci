@@ -10,7 +10,7 @@ class Welcome extends MY_Controller {
         $dataSet = $this->data_model->getTestData();
 
         /*build $data array */
-        $data['title'] = 'Howdy Page!';
+        $data['title'] = 'Howdy!';
         $data['content'] = 'howdy';
         $data['dataSet'] = $dataSet;
 
